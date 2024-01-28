@@ -1,0 +1,60 @@
+/* Container styling to center the divs */
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Individual div styling */
+  .counter {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Chicle';
+    border: 2px solid #3498db;
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden;
+    transition: all 0.3s ease;
+    width: 200px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+  }
+  
+  /* Raised effect on hover */
+  .counter:hover {
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+    transform: translateY(-5px); /* Adjust as needed for the raised effect */
+  }
+  
+  /* Input and button styling within the counter */
+  .counter input,
+  .counter button {
+    margin: 5px;
+  }
+  
+  /* Button styling for a 3D look */
+  button {
+    padding: 15px 25px;
+    font-size: 16px;
+    border: 2px solid #3498db;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Button hover effect for 3D look */
+  button:hover {
+    background-color: transparent;
+    color: #3498db;
+    border: 2px solid #3498db;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+  }
+  
+  /* Font styling for buttons */
+  button {
+    font-family: 'Chicle';
+    font-size: larger;
+  }
+  
+  
+  

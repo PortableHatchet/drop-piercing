@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import './NumbersPage.css'
+
+
 
 const NumbersPage = () => {
   const initialCounters = JSON.parse(localStorage.getItem('countersData')) || {
@@ -32,20 +35,21 @@ const NumbersPage = () => {
   }, []); // Empty dependency array to run only once on mount
 
   return (
-    <div>
-      <div>
+    <div className="counter-container">
+      <div className="counter">
         <p>Web Counter: {counters.web}</p>
-        <button onClick={() => updateCounter('web')}>Increment Web</button>
+        <button onClick={() => updateCounter('web')}>+ 1</button>
       </div>
-      <div>
+      <div className="counter">
         <p>Referral Counter: {counters.referral}</p>
-        <button onClick={() => updateCounter('referral')}>Increment Referral</button>
+        <button onClick={() => updateCounter('referral')}>+ 1</button>
       </div>
-      <div>
+      <div className="counter">
         <p>Advertisement Counter: {counters.advertisement}</p>
-        <button onClick={() => updateCounter('advertisement')}>Increment Advertisement</button>
+        <button onClick={() => updateCounter('advertisement')}>+ 1</button>
       </div>
     </div>
+
   );
 };
 
