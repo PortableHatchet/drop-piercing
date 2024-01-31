@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/drop-piercing/static/css/main.b433d2af.css",
-    "main.js": "/drop-piercing/static/js/main.68d07ba2.js",
+    "main.css": "/drop-piercing/static/css/main.a0e17d81.css",
+    "main.js": "/drop-piercing/static/js/main.9857ecf7.js",
     "index.html": "/drop-piercing/index.html",
-    "main.b433d2af.css.map": "/drop-piercing/static/css/main.b433d2af.css.map",
-    "main.68d07ba2.js.map": "/drop-piercing/static/js/main.68d07ba2.js.map"
+    "main.a0e17d81.css.map": "/drop-piercing/static/css/main.a0e17d81.css.map",
+    "main.9857ecf7.js.map": "/drop-piercing/static/js/main.9857ecf7.js.map"
   },
   "entrypoints": [
-    "static/css/main.b433d2af.css",
-    "static/js/main.68d07ba2.js"
+    "static/css/main.a0e17d81.css",
+    "static/js/main.9857ecf7.js"
   ]
 }
